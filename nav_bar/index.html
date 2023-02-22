@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/116917d942.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+    <title>Welcome to Darakbang!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__logo">
+            <i class="fa-sharp fa-solid fa-house"></i>
+            <a href="#">다락방</a>
+        </div>
+
+        <ul class="navbar__menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Activity</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+
+        <ul class="navbar__icons">
+            <li><i class="fa-sharp fa-solid fa-comments"></i></li>
+            <li><i class="fa-solid fa-envelope"></i></li>
+        </ul>
+
+        <a href="#" class="navbar__toogleBtn">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+    </nav>
+
+    <br>
+    <br>
+    
+    <div class="container">
+        <div class="title title1"><font size=5>2023 다락방 활동</font></div>
+    </div>
+
+    <div class="section">
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02">
+        <input type="radio" name="slide" id="slide03">
+
+        <div class="slidewrap">
+            <ul class="slidelist">
+                <li>
+                    <a>
+                        <img src="./slide01.jpg"; sytle="width:100%">
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="./slide02.jpg"; sytle="width:100%">
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="./slide03.jpg"; sytle="width:100%">
+                    </a>
+                </li>
+            </ul>
+
+            <div class="slide-control">
+                <div class="control01">
+                    <label for="slide03" class="left"></label>
+                    <label for="slide02" class="right"></label>
+                </div>
+                <div class="control02">
+                    <label for="slide01" class="left"></label>
+                    <label for="slide03" class="right"></label>
+                </div>
+                <div class="control03">
+                    <label for="slide02" class="left"></label>
+                    <label for="slide01" class="right"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
