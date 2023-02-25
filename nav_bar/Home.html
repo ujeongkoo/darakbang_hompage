@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/116917d942.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+    <title>Welcome to Darackbang!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__logo">
+            <a href="Home.html"><i class="fa-sharp fa-solid fa-house"></i>&nbsp;다락방</a>
+        </div>
+
+        <ul class="navbar__menu">
+            <li><a href="Home.html" class="nav">Home</a></li>
+            <li><a href="#" class="nav">Board</a></li>
+            <li><a href="#" class="nav">Activity</a></li>
+            <li><a href="#" class="nav">Gallery</a></li>
+            <li><a href="#" class="nav">FAQ</a></li>
+        </ul>
+
+        <ul class="navbar__icons">
+            <li><a href="Login.html"><i class="fa-solid fa-user"></i></a></li>
+            <li><i class="fa-sharp fa-solid fa-comments"></i></li>
+            <li><i class="fa-solid fa-envelope"></i></li>
+            <li></li>
+        </ul>
+
+        <a href="#" class="navbar__toogleBtn">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+    </nav>
+
+    <br>
+    <br>
+    
+    <div class="container">
+        <div class="title title1"><font size=10>2023 다락방 활동</font></div>
+    </div>
+    <br>
+    <section>
+        <div class="section">
+            <input type="radio" name="slide" id="slide01" checked>
+            <input type="radio" name="slide" id="slide02">
+            <input type="radio" name="slide" id="slide03">
+
+            <div class="slidewrap">
+                <ul class="slidelist">
+                    <li>
+                        <a>
+                            <img src="./slide01.jpg"; sytle="width:100%">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./slide02.jpg"; sytle="width:100%">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="./slide03.jpg"; sytle="width:100%">
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="slide-control">
+                    <div class="control01">
+                        <label for="slide03" class="left"></label>
+                        <label for="slide02" class="right"></label>
+                    </div>
+                    <div class="control02">
+                        <label for="slide01" class="left"></label>
+                        <label for="slide03" class="right"></label>
+                    </div>
+                    <div class="control03">
+                        <label for="slide02" class="left"></label>
+                        <label for="slide01" class="right"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="section2">
+                <div class="notion">다락방 노션에 놀러오세요!<br><br><a href="https://weak-ping-ca8.notion.site/b4757259ba3942fb81e9c8fccbd752f3" target="_blank"><img src="./darackbang2.png"; style="width:100px" alt="다락방 노션"></a></div>
+                <div class="application">지원서 작성<br><br><a href="https://forms.gle/QW9oyN3HMKRuFz2D6" target="_blank"><img src="./application.png"; style="width: 125px" alt="구글지원폼"></a></div>
+                <div class="seoultech">서울과학기술대학교 홈페이지<br><br><a href="https://www.seoultech.ac.kr/index.jsp" target="_blank"><img src="./seoultech.jpg"; style="width:135px" alt="서울과학기술대학교"></a></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="phone">
+                <i class="fa-solid fa-phone"></i>
+                회장 위동국: 010-2718-5854
+                &nbsp;
+                부회장 구유정: 010-4255-8114
+            </div>
+            <p style="float: right;">주소: 서울 노원구 공릉로 232 서울과학기술대학교 미래관&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        </div>
+    </footer>
+</body>
+</html>
