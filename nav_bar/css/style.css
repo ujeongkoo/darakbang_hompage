@@ -115,6 +115,7 @@ a {
 .section input[id*="slide"] {
     display: none;
 }
+
 .section .slidewrap {
     max-width: 800px;
     margin: 0 auto;
@@ -124,6 +125,7 @@ a {
 
 .section .slidelist {
     white-space: nowrap;
+    font-size: 0;
 }
 
 .section .slidelist > li {
@@ -160,13 +162,17 @@ a {
     cursor: pointer;
 }
 
-.section .slide-control .left {
-    left: 1px;
+.slide-control > div {
+    display:none;
+}
+
+.section .left {
+    left: 10px;
     background: url('./left.png') center center / 100% no-repeat;
 }
 
-.section .slide-control .right {
-    right: 1px;
+.section .right {
+    right: 10px;
     background: url('./right.png') center center / 100% no-repeat;
 }
 
@@ -510,10 +516,6 @@ ul, li {
 .board_view .info dl dd {
     display: inline-block;
     font-size: 1.4rem;
-}
-
-.board_view .info dl dt {
-    
 }
 
 .board_view .info dl dd {
