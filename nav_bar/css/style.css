@@ -598,3 +598,63 @@ ul, li {
     border: 0;
     resize: vertical;
 }
+
+.activity_page {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+.activity_page a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-left: 0;
+    vertical-align: middle;
+    line-height: 100%;
+}
+
+.activity_page a.bt {
+    padding-top: 2px;
+    font-size: 1.4rem;
+    letter-spacing: -1px;
+}
+
+.activity_page a.num {
+    padding-top: 2px;
+    font-size: 1.4rem;
+}
+
+.activity_page a:first-child {
+    border-left: 1px solid #ddd;
+}
+
+.activity_page a.num.on {
+    border-color: black;
+    background: black;
+    color: white;
+}
+
+.content01 {
+    text-align: center;
+}
+
+.Activity_study {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    height: 20px;
+    font-size: 1.5rem;
+}
+
+.Activitiy_jpg {
+    text-align: center;
+}
+
+.Activitiy_jpg .study01 {
+    display: inline;
+    padding-bottom: 0;
+}
+
